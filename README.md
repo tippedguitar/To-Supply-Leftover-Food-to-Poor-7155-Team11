@@ -7,7 +7,7 @@
 ## Team Members
 - **Team Lead:** NIRMAL SR
 - **Team Members:**
-- - SRINITISH D
+  - SRINITISH D
   - NIRMAL SR
   - CHANDRU S
   - ABISHEK V
@@ -15,4 +15,5 @@
 
 ## Demo Link
 The below link contains the project demo:
-Project Demo[ ]
+
+Project Demo [ ]
