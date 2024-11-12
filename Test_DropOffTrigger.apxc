@@ -1,0 +1,17 @@
+@isTest
+private class TestDropOffTrigger {
+
+    @isTest 
+    static void testDropOffTrigger() {
+
+        Drop_Off_Point__c dropOffPoint = new Drop_Off_Point__c(
+            Name = 'Test Drop Off Point'
+        );
+
+        insert dropOffPoint;
+
+        Drop_Off_Point__c queriedPoint = [SELECT Distance__c FROM Drop_Off_Point__c WHERE Id = :dropOffPoint.Id];
+
+        System.assert(queriedPoint.Distance__c != null, 'Distance__c should be populated by the trigger');
+    }
+}
